@@ -334,4 +334,53 @@ footer {
         margin: 5px 0; /* Smaller spacing between items */
     }
 
+    .container {
+        width: 90%; /* Use more screen width on mobile */
+    }
+
+    /* Cards Section */
+    .cards {
+        flex-direction: column; /* Stack cards vertically */
+        margin: 20px 0; /* Reduce margin for smaller screens */
+    }
+
+    .card {
+        max-width: 100%; /* Full width on mobile */
+        margin: 10px 0; /* Space between each card */
+    }
+
+    .card h4 {
+        font-size: 1.4em; /* Adjust font size for headings */
+    }
+
+    .card p {
+        font-size: 1em; /* Adjust paragraph size */
+    }
+
+    .btn {
+        font-size: 0.9em; /* Slightly smaller button for mobile */
+        padding: 10px 20px; /* Adjust padding for mobile screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .card h4 {
+        font-size: 1.2em; /* Further reduce font size for smaller screens */
+    }
+
+    .card p {
+        font-size: 0.9em; /* Adjust paragraph font size */
+    }
+
+    .btn {
+        font-size: 0.85em; /* Slightly smaller button for better fit */
+    }
+
+    .hero h2 {
+        font-size: 1.5em; /* Adjust hero section title size */
+    }
+
+    .hero p {
+        font-size: 1em; /* Adjust hero section paragraph size */
+    }
 }
